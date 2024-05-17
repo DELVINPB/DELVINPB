@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I'm Delvin P.B,and this is my personal portfolio website..">
+    
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-...">
+    <title>Delvin P.B</title>
+
+   
+    <!--==================== Animate on scroll CDN ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+        
+           
+           
+      
+
+</head>
+
+<body>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Delvin P.B</a>
+
+            <div data-aos="fade-in" class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__items">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#about" class="nav__link ">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav_items">
+                        <a href="#skills" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#projects" class="nav__link ">
+                            <i class="uil uil-scenery nav__icon"></i> Project
+                        </a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#certificate" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Certificate
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#contact" class="nav__link ">
+                            <i class="uil uil-message nav__icon"></i> Contact me
+                        </a>
+                    </li>
+
+
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!--Theme Change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+                
+            </div>
+            
+
+        </nav>
+        
+    </header>
+    
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div data-aos="fade-left" class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/delvinpb?igsh=MTVoNXY2M24xbzE4ag=="
+                            target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://github.com/DELVINPB" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/delvinpb/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                    </div>
+
+                    <div data-aos="fade-right" class="home__img">
+                        <div class="circular-background">
+                            <img class="home__profile-photo" src="assets/img/profile.png" alt="Profile Photo">
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+
+                    <div class="home__data">
+                        <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm Delvin P.B</h1>
+                        <h3 class="home__subtitle">
+                            and I'm <span class="auto-input"></span>
+                        </h3>
+                        <p class="home__description">
+                            Fueled by a fervent love for coding, I am constantly immersed in the world of technology, driven by an insatiable curiosity to learn and master new concepts.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name"> Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle"> My Introduction</span>
+
+            <div data-aos="fade-left" class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hello! I'm Delvin P.B., a third-year B.Tech Computer Science student passionate about technology, 
+                        especially Artificial Intelligence. My journey involves exploring Python, C, and Java while relishing every moment of growth. 
+                        Beyond academia, I'm an avid seeker of knowledge, eager to unravel new inventions and emerging technologies. 
+                        Each challenge is an opportunity, and every discovery a triumph.
+                    </p>
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/delvin Resume.pdf" class="button button--flex">
+                            Resume <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills & Qualifications</h2>
+            <span class="section__subtitle">My technical and educational level</span>
+
+            <div data-aos="fade-up" class="skills__container container grid">
+                <div>
+                    <!--==================== CODING SKILLS====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Coding Skill</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="assets/img/python.png" class="skills__logo"
+                                            width="20px" alt=""> Python</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="assets\img\java1 .png" class="skills__logo"
+                                            width="20px" alt=""> Java</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"><img src="assets\img\C .png" class="skills__logo"
+                                            width="20px" alt=""> C</h3>
+
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__C"></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--==================== EDUCATION ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Education</h1>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <section class="timeline">
+
+                                <ol class="timeline-list">
+                                    <li class="timeline-item">
+                      
+                                        <h4 class="h4 timeline-item-title">SAHRDAYA COLLEGE OF ENGINREERING AND TECHNOLOGY KODAKARA</h4>
+                          
+                                        <span>2021 — 2025</span>
+                          
+                                        <p class="timeline-text">
+                                            Currently pursuing a Bachelor's degree in Computer Science Engineering at Sahrdaya College of Engineering and Technology, expected to graduate in 2025.
+                                          eos.
+                                        </p>
+                          
+                                    </li>
+
+                                    <li class="timeline-item">
+                      
+                                        <h4 class="h4 timeline-item-title">ST. ANTONY'S HSS Mala</h4>
+                          
+                                        <span>2019 — 2021</span>
+                          
+                                        <p class="timeline-text">
+                                            Completed Higher Secondary Education at St. Antony's HSS Mala with an impressive 96.5%, showcasing a strong commitment to academic excellence.
+                                        </p>
+                          
+                                    </li>
+
+                                  <li class="timeline-item">
+                      
+                                    <h4 class="h4 timeline-item-title">R.M.H.S.S Aloor</h4>
+                      
+                                    <span>2018 — 2019</span>
+                      
+                                    <p class="timeline-text">
+                                        I completed my SSLC at R.M.H.S.S Aloor with an outstanding 99%, showcasing my dedication to academic excellence. This achievement underscores my commitment to learning and sets a strong foundation for my future endeavors.
+                                    </p>
+                      
+                                  </li>
+                      
+                                </ol>
+                      
+                            </section> 
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+        </section>
+
+        <!--==================== Project ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Project</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div data-aos="fade-right" class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Project 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets\img\project1.png" alt="" class=".portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">E-commerce for Used Books (BOOKLY) </h3>
+                            <p class="portfolio__description">Our website serves as a student-focused marketplace, enabling buying and selling of textbooks for extra income and affordable access to course 
+                                materials, especially aiding low-income students</p>
+                            <a href="https://delvinpb.github.io/eCommerce-for-used-books/" class="button button--flex button--small portfolio_-button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Project 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">PERSONAL PORTFOLIO</h3>
+                            <p class="portfolio__description">Explore my portfolio website, switching between dark and light themes effortlessly. It adapts seamlessly to desktop and mobile, offering a smooth user experience. Dive into my work
+                                 in a visually appealing and user-friendly environment.</p>
+                            <a href="assets/video/potfolio.mp4" class="button button--flex button--small portfolio_-button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section" id="project_mind">
+            <div data-aos="fade-in" class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now on your new project.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/img/project.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== My Certificate ====================-->
+        
+            <section class="certificate section" id="certificate">
+                <h2 class="section__title">My Certificates</h2>
+                <span class="section__subtitle">Scroll or slide here to see next>>></span>
+            
+                <div data-aos="fade-right" class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== Certificate 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/cyber.jpg" alt="" class="portfolio__img">
+            
+                            <div class="portfolio__data">
+                                <p>Google Certificate</p>
+                                <a href="assets/pdf/cyber.pdf"
+                                    class="button button--flex button--small portfolio_-button">
+                                    Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== Certificate 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/googlecloud.jpg" alt="" class="portfolio__img">
+                
+                            <div class="portfolio__data">
+                                <p>Google Cloud Certificate</p>
+                                <a href="assets/img/googlecloud.png"
+                                    class="button button--flex button--small portfolio_-button">
+                                     Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== Certificate 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/ust cousera.jpg" alt="" class="portfolio__img">
+                
+                            <div class="portfolio__data">
+                                <p>UST Certificate</p>
+                                <a href="assets/pdf/UST.pdf"
+                                    class="button button--flex button--small portfolio_-button">
+                                    Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== Certificate 4 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/workshop.jpg" alt="" class="portfolio__img">
+            
+                            <div class="portfolio__data">
+                                <p>Workshop Certificate</p>
+                                <a href="assets/img/workshop.png"
+                                    class="button button--flex button--small portfolio_-button">
+                                    Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== Certificate 5 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/workshopdp.jpg" alt="" class="portfolio__img">
+            
+                            <div class="portfolio__data">
+                                <p>Workshop Certificate</p>
+                                <a href="assets/img/workshopdp.png"
+                                    class="button button--flex button--small portfolio_-button">
+                                    Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== Certificate 6 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/gdscbadge .png" alt="" class="portfolio__img">
+            
+                            <div class="portfolio__data">
+                                <p>GDSC Badge</p>
+                                <a href="assets/img/badge.svg"
+                                    class="button button--flex button--small portfolio_-button">
+                                    Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== Certificate 7 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/google-cloud-computing-foundations-certificate.png" alt="" class="portfolio__img">
+            
+                            <div class="portfolio__data">
+                                <p>Google Cloud Computing Badge</p>
+                                <a href="https://www.credly.com/badges/62f9a2b2-36cb-4e29-86ec-b819d23fe4fc/public_url"
+                                    class="button button--flex button--small portfolio_-button">
+                                    Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== Certificate 8 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/prompt-designl.png" alt="" class="portfolio__img">
+            
+                            <div class="portfolio__data">
+                                <p>Prompt Design in Vertex AI Skill Badge</p>
+                                <a href="https://www.credly.com/badges/a4a2c4eb-92f3-4d33-8ab3-2b9ecace4a94/public_url"
+                                    class="button button--flex button--small portfolio_-button">
+                                    Preview
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+            
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div data-aos="fade-in" class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon "></i>
+                        <!--home__social-->
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"> delvinbabupb777@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-github-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Github</h3>
+                            <span class="contact__subtitle">https://github.com/DELVINPB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/mjvnzwlj" method="POST" class="contact__form grid">
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Name</label>
+                        <input id="name" name="name" type="text" class="contact__input" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="email" class="contact__label">Email</label>
+                        <input id="email" name="email" type="email" class="contact__input" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea id="message" cols="30" rows="7" class="contact__input" name="message" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="button button--flex">Send Message<i class="uil uil-message button__icon"></i></button>
+                    </div>
+                </form>
+                
+                
+            </div>
+        </section>   
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Delvin P.B</h1>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#project_mind" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="footer__link">Project</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/invites/contact/?i=1nzdie95dni4q&utm_content=p6o72vi"
+                        target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i></a>
+                    </a>
+
+                    <a href="https://github.com/DELVINPB" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i></a>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/delvin-p-b-874071228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i></a>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&copy; 2024 Delvin P.B | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!--==================== SCROLL TOP ====================-->
+    <div><a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a></div>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=================== Animated text ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: [
+                "a student",
+                "an AI enthusiast",
+                "an ML enthusiast",
+                "Pythonist",
+            ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        });
+    </script>
+
+    <!--=================== Animate scroll js ===============-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000
+        });
+    </script>
+    
+   
+      
+</body>
+
+
+</html>
